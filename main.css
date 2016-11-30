@@ -1,0 +1,73 @@
+header{
+    background-color: black;
+}
+
+#project_name{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: 'TradeGothic', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: white;
+    text-align: center;
+    font-family: 'TradeGothic', sans-serof;
+    font-weight: bold;
+}
+
+
+svg {
+  font: 10px sans-serif;
+  shape-rendering: crispEdges;
+}
+rect {
+  fill: #e60000;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #fff;
+}
+
+#logo{
+    text-align: center;
+    margin: 0;
+    text-decoration: none;
+}
+
+#timeline{
+    background-color: white;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'TradeGothic', sans-serif;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    font-family: 'TradeGothic', sans-serif;
+    font-weight: bold;
+}
+
+#contact_info{
+    text-align: center;
+    color: black;
+    font-family: 'TradeGothic', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact_names{
+    text-align: center;
+    color: black;
+    font-family: 'TradeGothic', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
