@@ -150,7 +150,7 @@ function panLimit() {
 
  
 //GET THE DATA
- d3.csv("test.csv",function(error, data){
+ d3.csv("marvel.csv",function(error, data){
     var yearCheck = []
     var wfCount = 0;
      
@@ -347,7 +347,7 @@ function getCharacterInfo(name, year, alterego, ypos, nemesis, intelligence, spe
                                   tooltip2.html("<br/>"+charEvent.data.results[0].title+
                                                "<br/>Published:"+charEvent.data.results[0].start+
                                                "<br/>")
-                                    .style("left",830+"px")
+                                    .style("left",690+"px")
                                     .style("top",200+"px") 
                                     .append("img")
                                     .attr("src", charEvent.data.results[0].thumbnail.path + '.' + charEvent.data.results[0].thumbnail.extension)

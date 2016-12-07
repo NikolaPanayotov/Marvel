@@ -53,8 +53,8 @@ div.tooltip{
 
 
 tooltip2.tooltip2{
-    position:fixed;
-    width: 250px;
+     position:fixed;
+    width: 450px;
     height: auto;
     padding: 10px;
     background-color: white;
@@ -141,7 +141,13 @@ rect {
 #timeline{
     background-color: white;
 }
-
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'TradeGothic', sans-serif;
+    font-weight: bold;
+}
 #storyline{
     background-color: white;
     position:absolute;
@@ -150,13 +156,6 @@ rect {
     width: 450px;
     height: auto;
     padding: 10px;
-}
-footer{
-    text-align: center;
-    background-color: black;
-    color: white;
-    font-family: 'TradeGothic', sans-serif;
-    font-weight: bold;
 }
 
 h1{
