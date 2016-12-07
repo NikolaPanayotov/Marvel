@@ -15,19 +15,25 @@ header{
 body{
     background-color: white;
     text-align: center;
-    font-family: 'TradeGothic', sans-serof;
+    font-family: 'TradeGothic', sans-serif;
     font-weight: bold;
 }
 
+#Stan-Lee{
+    position:relative;
+    width: 250px;
+    height: auto;
+}
+
 div.tooltip{
-    position:absolute;
-    width: 200px;
+    position:fixed;
+    width: 150px;
     height: auto;
     padding: 10px;
-    background-color: white;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+    background-color: lightgrey;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
     -webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
     -moz-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
     box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
@@ -45,9 +51,73 @@ div.tooltip{
     line-height: 20px;
 }
 
+
+tooltip2.tooltip2{
+    position:fixed;
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+}
+
+#tooltip2 p{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#tooltip2.hidden{
+    display:none;
+}
+
+tooltip3.tooltip3{
+     position:fixed;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+}
+
+#tooltip3 p{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#tooltip3.hidden{
+    display:none;
+}
+
+
+tooltip4.tooltip4{
+    position:fixed;
+    width: 450px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+}
+
+#tooltip4 p{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#tooltip4.hidden{
+    display:none;
+}
+
+#eventDescription{
+    font-size: 12px;
+}
+
+
 svg {
   font: 10px sans-serif;
-  shape-rendering: crispEdges;
+  shape-rendering: crispEdges;  
 }
 rect {
   fill: #e60000;
@@ -55,7 +125,11 @@ rect {
 
 .axis path, .axis line {
   fill: none;
-  stroke: #fff;
+  stroke: white;
+}
+
+.navBar {
+  fill: #9C9393;
 }
 
 #logo{
@@ -67,13 +141,22 @@ rect {
 #timeline{
     background-color: white;
 }
+
+#storyline{
+    background-color: white;
+    position:absolute;
+    left:1430px;
+    top: 610px;
+    width: 450px;
+    height: auto;
+    padding: 10px;
+}
 footer{
     text-align: center;
     background-color: black;
     color: white;
     font-family: 'TradeGothic', sans-serif;
     font-weight: bold;
-    text-decoration: none;
 }
 
 h1{
@@ -96,4 +179,27 @@ h1{
     font-family: 'TradeGothic', sans-serif;
     font-weight: bold;
     text-decoration: none;
+}
+
+.navigator .data {
+    fill: lightgrey;
+    stroke-width: 0px;
+}
+
+.navigator .line {
+    fill: none;
+    stroke: darkgrey;
+    stroke-width: 1px;
+}
+
+
+.navigator .viewport {
+    stroke: grey;
+    fill: #e60000;
+    fill-opacity: 0.6;
+}
+
+.chart .overlay {
+    stroke-width: 0px;
+    fill-opacity: 0;
 }
