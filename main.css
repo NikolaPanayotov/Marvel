@@ -148,15 +148,6 @@ footer{
     font-family: 'TradeGothic', sans-serif;
     font-weight: bold;
 }
-#storyline{
-    background-color: white;
-    position:absolute;
-    left:1430px;
-    top: 610px;
-    width: 450px;
-    height: auto;
-    padding: 10px;
-}
 
 h1{
     text-align: center;
@@ -201,4 +192,15 @@ h1{
 .chart .overlay {
     stroke-width: 0px;
     fill-opacity: 0;
+}
+
+#storyline{
+    background-color: white;
+    position:absolute;
+    left:490px;
+    top: 175px;
+    width: 850px;
+    height: auto;
+    padding: 10px;
+    
 }
