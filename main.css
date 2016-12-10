@@ -17,6 +17,7 @@ body{
     text-align: center;
     font-family: 'TradeGothic', sans-serif;
     font-weight: bold;
+    margin: 0;
 }
 
 #Stan-Lee{
@@ -150,9 +151,11 @@ footer{
 }
 
 h1{
+    margin: 0;
     text-align: center;
     font-family: 'TradeGothic', sans-serif;
     font-weight: bold;
+    padding: 25px;
 }
 
 #contact_info{
@@ -196,10 +199,9 @@ h1{
 
 #storyline{
     background-color: white;
-    position:absolute;
-    left:490px;
     top: 175px;
-    width: 850px;
+    max-width: 850px;
+    margin: auto;
     height: auto;
     padding: 10px;
     
